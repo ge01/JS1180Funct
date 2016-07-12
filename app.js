@@ -25,3 +25,13 @@ function toCelsius(f) {
   return (5/9) * (f-32);
 }
 document.getElementById("fToC").innerHTML = toCelsius(77);
+
+/******************************************************
+*             Functions Used as Variables             *
+******************************************************/
+document.getElementById("used").innerHTML =
+"The temperature is " + toCelsius(77) + " Celsius";
+
+function toCelsus(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
